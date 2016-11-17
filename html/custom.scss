@@ -1,0 +1,9 @@
+$font-color: navy;
+$hover: steelblue;
+
+.navbar-default .navbar-nav>li>a {
+  color: $font-color;
+  &:hover {
+    color: $hover;
+  }
+}
